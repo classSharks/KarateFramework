@@ -5,7 +5,7 @@ public class TestRunner {
 	
 	@Karate.Test
 	Karate testUsers() {
-		return Karate.run().tags("@getPrimaryAccount").relativeTo(getClass());
+		return Karate.run().tags("@E2E").relativeTo(getClass());
 	}
 
 }
